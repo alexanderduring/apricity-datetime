@@ -1,0 +1,23 @@
+{
+    "name": "alexanderduring/apricity-datetime",
+    "description": "A utility library for handling dates and times, including Month and Year classes within the Apricity\\DateTime namespace.",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Alexander During"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apricity\\DateTime\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
