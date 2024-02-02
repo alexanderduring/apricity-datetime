@@ -16,6 +16,11 @@
             "Apricity\\DateTime\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Apricity\\DateTime\\Tests\\": "tests/"
+        }
+    },
     "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^9.0"

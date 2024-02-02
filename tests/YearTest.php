@@ -1,5 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Apricity\DateTime\Tests;
+
 use Apricity\DateTime\Year;
 use PHPUnit\Framework\TestCase;
 

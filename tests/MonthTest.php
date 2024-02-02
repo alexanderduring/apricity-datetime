@@ -1,7 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Apricity\DateTime\Tests;
+
 use Apricity\DateTime\Month;
-use Apricity\DateTime\Year;
 use PHPUnit\Framework\TestCase;
 
 class MonthTest extends TestCase
